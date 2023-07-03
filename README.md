@@ -1,6 +1,6 @@
 # Google Task Enhancer
 
-A chrome extension to enhance Google Task usage in Google calendar. Planning to add more features.
+A chrome extension to enhance Google Tasks experience across Google Workspace. Planning to add more features.
 CHROME LINK
 
 ## Features
