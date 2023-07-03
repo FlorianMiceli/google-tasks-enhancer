@@ -4,6 +4,12 @@
     "description": "A chrome extension to enhance Google Tasks experience across Google Workspace.",
     "manifest_version": 3,
     "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhc6zQS2GJnMbOjt8JnGmM8aulLR+xRpA1st21IKlfyqe/pKcg/thws/jdSxyjlcswLkk+mHdVsuEJaF7Lh20QYQYnnLgMPQptug1m6nYoz3PLHjRP3KcvXdMAs9eZgrh2zAc2IqEbpO8XnlM+oRwO18dSE3Ers62UjW6qi8iQhFGzz4+bRPiLYMzDcOfTOHEJFEuWlfAv3DOOW8iru06J98pGbZ6Mxx7p3SbX+DE7ZCDoVtNYw5Ctxl/ZUsW203eOWJuNOI1R1DBSaY/o3QTqa1RRQPQaW+4C2JF364DmUUs3hqzdvHh/156S3xL3EruIPo5+9j0mxHbpBioUeZ/gwIDAQAB",
+    "icons": {
+        "16": "icons/16.png",
+        "32": "icons/32.png",
+        "48": "icons/48.png",
+        "128": "icons/128.png"
+      },
     "action": {
       "default_title": "Google tasks enhancer"
     },
