@@ -1,0 +1,36 @@
+{
+    "name": "Google Task enhancer",
+    "version": "1.0",
+    "description": "Uses OAuth2 to connect to Google Task API and update tasks. Controls on google calendar page.",
+    "manifest_version": 3,
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhc6zQS2GJnMbOjt8JnGmM8aulLR+xRpA1st21IKlfyqe/pKcg/thws/jdSxyjlcswLkk+mHdVsuEJaF7Lh20QYQYnnLgMPQptug1m6nYoz3PLHjRP3KcvXdMAs9eZgrh2zAc2IqEbpO8XnlM+oRwO18dSE3Ers62UjW6qi8iQhFGzz4+bRPiLYMzDcOfTOHEJFEuWlfAv3DOOW8iru06J98pGbZ6Mxx7p3SbX+DE7ZCDoVtNYw5Ctxl/ZUsW203eOWJuNOI1R1DBSaY/o3QTqa1RRQPQaW+4C2JF364DmUUs3hqzdvHh/156S3xL3EruIPo5+9j0mxHbpBioUeZ/gwIDAQAB",
+    "action": {
+      "default_title": "Google task enhancer"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "oauth2": {
+        "client_id": "123224251492-gmuevbdkcnjcig8vkppsuvfllbf6127v.apps.googleusercontent.com",
+        "scopes":[
+            "https://www.googleapis.com/auth/tasks"
+        ]
+    },
+    "permissions": [
+        "identity",
+        "storage",
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://calendar.google.com/*"],
+            "js": ["features.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": ["styles.css"],
+            "matches": ["https://calendar.google.com/*"]
+        }
+    ]
+}
