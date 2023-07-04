@@ -32,3 +32,4 @@ A chrome extension to enhance Google Tasks experience across Google Workspace. P
 ## Todo
 
 - time zone settings
+- replace getAuthToken by launchWebAuthFlow (to support Microsoft Edge)
