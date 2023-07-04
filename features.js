@@ -2,9 +2,10 @@ async function OverdueToToday(token) {
     const now = new Date();
     const nowInRFC3339 = now.toISOString();
     const daysSinceSunday = now.getDay();
-    const lastSundayPlusOneDay = new Date(now.getTime() - (daysSinceSunday-1) * 24 * 60 * 60 * 1000);
-    const rfc3339Date = lastSundayPlusOneDay.toISOString();
-    const date = rfc3339Date
+    const lastSundayPlusOneDay = new Date(now.getTime() - (daysSinceSunday-2) * 24 * 60 * 60 * 1000);
+    const setTime = new Date(lastSundayPlusOneDay.setHours(23, 59));
+    const rfc3339Date = setTime.toISOString();
+    const date = rfc3339Date;
     console.log(date);
     let get = {
         method: 'GET',
