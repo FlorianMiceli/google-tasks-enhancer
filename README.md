@@ -1,7 +1,8 @@
 # Google Task Enhancer
 
 A chrome extension to enhance Google Tasks experience across Google Workspace. Planning to add more features.
-CHROME LINK
+
+[Link to the Chrome Web store page](https://chrome.google.com/webstore/detail/google-tasks-enhancer/jgkonicgfhoedmeimlgmaokeoofjihfb?hl=fr)
 
 ## Features
 
