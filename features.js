@@ -45,7 +45,7 @@ async function OverdueToToday(token) {
 }
 
 function addButtonOverdueToToday() {
-    const targetDiv = document.querySelector("div.gb_pd.gb_zd.gb_Ue.gb_Ee.gb_Te.gb_Re.gb_We");
+    const targetDiv = document.querySelector("#gb > div.gb_od.gb_id > div.gb_nd.gb_xd.gb_Re.gb_Be.gb_Qe.gb_Oe.gb_Te > div.gb_ee.gb_ce")
     if (targetDiv) {
         const cssPath = chrome.runtime.getURL('styles.css');
         const buttonItem = `
