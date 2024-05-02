@@ -4,6 +4,8 @@ A chrome extension to enhance Google Tasks experience across Google Workspace. P
 
 [Link to the Chrome Web store page](https://chrome.google.com/webstore/detail/google-tasks-enhancer/jgkonicgfhoedmeimlgmaokeoofjihfb?hl=fr)
 
+CURRENTLY NOT WORKING, FIX WIP
+
 ## Features
 
 - Adds a button to set all overdue tasks to today, in the top bar.
